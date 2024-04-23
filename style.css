@@ -159,6 +159,14 @@ html{
         padding: 50px ; 
         border-radius: 30px; 
     } 
+    .card1{ 
+        margin-top: 50px;
+        border: 1px solid #000000; 
+        width: 500px; 
+        background-color:#316407; 
+        padding: 50px ; 
+        border-radius: 30px; 
+    } 
     .w100{ 
         width: 100%; 
     } 
