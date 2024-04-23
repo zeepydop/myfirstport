@@ -1,0 +1,235 @@
+html{ 
+    scroll-behavior: smooth; 
+    } 
+    body{ 
+        margin: 0; 
+         
+    } 
+    .hero{ 
+        background-color: #ffffff; 
+        display: flex; 
+        min-height: 95vh;
+    } 
+    .korobka{ 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        width: 50%; 
+        height: 95vh; 
+    } 
+    .korobka2{ 
+        display: flex; 
+        justify-content: center; 
+        align-items: end; 
+        width: 50%; 
+        height: 95vh; 
+     
+    } 
+    .korobka3{ 
+        display: flex; 
+        justify-content: center; 
+        width: 50%;
+        height: 71vh;
+        margin: 100px 0 0 0; 
+    } 
+    h1{ 
+        margin: 0; 
+        font-size: 100px; 
+    } 
+    h2{ 
+        margin: 0; 
+        font-size: 50px; 
+    } 
+    h3{ 
+        margin: 0; 
+        font-size: 30px; 
+    } 
+    .textcenter{ 
+        text-align: center; 
+    } 
+    .aboutme{ 
+        min-height: 95vh;
+        background-color: #316407; 
+        display: flex; 
+    } 
+    img{ 
+        width: 80%; 
+    } 
+    .w50{ 
+        width: 30%; 
+    } 
+    input{ 
+        display: block; 
+        margin: 30px 0; 
+        width: 100%; 
+        height: 30px; 
+        font-size: 30px; 
+        padding: 15px 30px; 
+        border-radius: 30px; 
+        border: 0; 
+    } 
+    .cont{ 
+        background-color: #316407; 
+    } 
+    .center{ 
+        display: flex; 
+        justify-content: center; 
+    } 
+    #aboutme{ 
+        padding: 50px; 
+        position: relative; 
+        z-index: 3; 
+    } 
+    .m50{ 
+        margin: 50px; 
+    } 
+     
+     
+    /* Все про меню */ 
+    .logo{ 
+        font-size: 30px; 
+        text-decoration: none; 
+        margin: 0 30px; 
+        font-weight: 600;     
+    } 
+    .link{ 
+        font-size: 30px; 
+        text-decoration: none; 
+        margin: 0 30px; 
+        color: #000000; 
+    } 
+    nav{ 
+        border: 1px solid #31640776 ; 
+        margin: 20px 50px; 
+        border-radius: 50px; 
+        width: calc(100% - 100px); 
+        color: #000000; 
+        background-color: #ffffff; 
+        display: flex; 
+        align-items: center; 
+        height: 60px; 
+        /*position: fixed;*/ 
+    } 
+    .right{ 
+        position: absolute; 
+        right: 80px; 
+    } 
+    .btn{ 
+        padding: 10px 30px; 
+        background-color: #316407; 
+        border-radius: 30px; 
+        color: black; 
+    } 
+    .btn1{ 
+        padding: 10px 30px; 
+        background-color: #000000; 
+        border-radius: 30px; 
+        color: #ffffff; 
+        margin: 50px 30px;
+        margin-top: 50px; 
+    } 
+     
+     
+    /*Все про пятно*/ 
+    .piatno{ 
+        z-index: 1; 
+        position: absolute; 
+        width: 1px; 
+        height: 1px; 
+        top: 800px; 
+        left: 75%; 
+        box-shadow: 0px 0px 300px 300px #31640776 ; 
+    } 
+    img{ 
+        z-index: 2; 
+    } 
+     
+    /*Все про блог*/ 
+    .myb{ 
+        min-height: 95vh;
+        background-color: #ffffff; 
+    } 
+    #myblog{ 
+        padding: 150px 0; 
+    } 
+    .card{ 
+        border: 1px solid #000000; 
+        width: 500px; 
+        background-color:#316407; 
+        padding: 50px ; 
+        border-radius: 30px; 
+    } 
+    .w100{ 
+        width: 100%; 
+    } 
+    .cardbtn{ 
+        text-decoration: none; 
+        color: #000000; 
+        width: 500px; 
+        display: block; 
+        margin: 0 150px; 
+    } 
+    .dflex{ 
+        display: flex; 
+    } 
+    .w80{ 
+        width: 80%; 
+    } 
+    .chiutnizhe{ 
+        margin-top: 450px; 
+    } 
+    .center2{ 
+        justify-content: center; 
+    } 
+     
+    .media{ 
+        width: 100px; 
+    } 
+    .small{ 
+        height: 30vh; 
+    } 
+    .center3{ 
+        text-align: center; 
+    }
+.myskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+.skills {
+    grid-column: 1 / span 2;
+    margin-top: 50px;
+}
+.half {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.row0 {
+    display: flex;
+    align-items: center;
+}
+.row0 h2 {
+    margin-right: 10px;
+    width: 150px; 
+}
+.row1 {
+    display: flex;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-right: 5px;
+}
+.circle.filled {
+    background-color: #316407;
+}
